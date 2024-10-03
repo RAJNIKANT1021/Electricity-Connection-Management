@@ -1,0 +1,54 @@
+nav {
+    background-color: #007bff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+nav h2 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    padding: 5px 10px; 
+    border-radius: 3px; 
+}
+
+nav ul li a:hover {
+    color: #d4d4d4; 
+    background-color: #0066cc; 
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) { /* Adjust breakpoint as needed */
+    nav {
+        flex-direction: column; /* Stack elements vertically */
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column; /* Stack links vertically */
+        margin-top: 10px; /* Add space between heading and links */
+    }
+
+    nav ul li {
+        margin: 10px 0; /* Adjust spacing between links */
+    }
+}

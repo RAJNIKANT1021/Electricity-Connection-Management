@@ -1,0 +1,109 @@
+.user-detail {
+    max-width: 800px; /* Maximum width for the user details section */
+    margin: auto auto; /* Centering the content horizontally */
+    padding: 20px; /* Padding around the content */
+    border: 1px solid #ccc; /* Light gray border around the details */
+    border-radius: 8px; /* Rounded corners for the border */
+    background-color: transparent; /* Light background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    font-family: Arial, sans-serif; /* Font style for the content */
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Arrange children in a column */
+}/* Background blur when popup is active */
+.popup-active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    backdrop-filter: blur(5px); /* Blurred background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  /* Popup content centered */
+  .popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  
+  .popup-buttons1 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .popup-button1 {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .popup-button1:hover {
+    background-color: #f0f0f0;
+  }
+  
+.btngrp{
+    display:flex;
+    justify-content: space-between;
+}
+
+.user-detail h2 {
+    text-align: center; /* Center the heading text */
+    color: #333; /* Dark color for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.user-detail .form-container {
+    display: flex; /* Flexbox for the two-column layout */
+    justify-content: space-between; /* Space between columns */
+}
+
+.user-detail .form-column {
+    flex: 1; /* Each column takes equal space */
+    margin: 10px; /* Space between columns */
+}
+
+.user-detail .form-group {
+    margin-bottom: 15px;
+
+}
+
+.user-detail .form-group label {
+    font-weight: bold; /* Bold label text */
+    display: block; /* Block display for label */
+    margin-bottom: 5px; /* Space below the label */
+}
+
+.user-detail .form-group input {
+    width: 90%; /* Full width input */
+    padding: 10px; /* Padding inside the input */
+    border: 1px solid #ccc; /* Border for the input */
+    border-radius: 5px; /* Rounded corners for the input */
+    background-color: #e9ecef; /* Light gray background to indicate non-editable */
+    color: #6c757d; /* Darker gray text to indicate non-editable state */
+}
+
+.user-detail button {
+    width:40%;
+    margin-top: 20px; /* Space above the button */
+    padding: 10px 20px; /* Padding for button */
+    background-color: #007bff; /* Blue background color for the button */
+    color: white; /* White text color for the button */
+    border: none; /* No border for the button */
+    border-radius: 5px; /* Rounded corners for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.user-detail button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

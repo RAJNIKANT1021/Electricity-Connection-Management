@@ -1,0 +1,135 @@
+.home-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+img {
+    height: 48%;
+    width: 100%;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #666;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow images to wrap */
+    gap: 10px;
+}
+
+.image-gallery img {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%; /* Make images responsive */
+    height: auto;
+}
+
+.home-container {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header Styles */
+.header-content {
+    margin-bottom: 40px; 
+}
+
+.main-heading {
+    font-size: 3em;
+    color: #333;
+    margin-bottom: 10px; 
+}
+
+.highlight {
+    color: #28a745; 
+}
+
+.subheading {
+    font-size: 1.5em;
+    color: #555;
+}
+
+/* Info Section Styles */
+.info-section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+    flex-wrap: wrap; /* Allow info items to wrap */
+}
+
+.info-item {
+    width: 300px; 
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.info-item:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); 
+}
+
+.info-heading {
+    color: #007bff; 
+    margin-bottom: 10px;
+}
+
+/* Image Gallery Styles */
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+    flex-wrap: wrap; /* Allow images to wrap */
+}
+
+.image-gallery img {
+    max-width: 500px; 
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 100%; /* Make images responsive */
+}
+
+.image-gallery img:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+}
+
+/* Media Query for Responsiveness */
+@media (max-width: 768px) { /* Adjust breakpoint as needed */
+    .info-section {
+        flex-direction: column; /* Stack info items vertically */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .info-item {
+        margin-bottom: 20px; /* Add space between items */
+    }
+
+    .image-gallery img {
+        max-width: 90%; /* Adjust image width on smaller screens */
+    }
+}

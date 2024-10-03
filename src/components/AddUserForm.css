@@ -1,0 +1,86 @@
+.add-user-form {
+    width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff; 
+    border: none;
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); 
+}
+
+.form-container {
+    display: flex;
+    gap: 30px;
+}
+
+.form-column {
+    width: 50%;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500; 
+    color: #680707; 
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    box-sizing: border-box; 
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #007bff; 
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); 
+}
+
+.error {
+    color: #dc3545; 
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+/* ... (Popup Styles) ... */
+
+.submit-button {
+    background-color: #28a745; 
+    color: white;
+    width: 100%;
+    padding: 12px 25px; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    font-size: 17px; 
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #218838; 
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) { /* Adjust breakpoint as needed */
+    .add-user-form {
+        width: 90%; /* Make the form narrower */
+        margin: 20px auto; /* Reduce margin */
+    }
+
+    .form-container {
+        flex-direction: column; /* Stack columns vertically */
+        gap: 20px;
+    }
+
+    .form-column {
+        width: 100%; /* Make columns full width */
+    }
+}
