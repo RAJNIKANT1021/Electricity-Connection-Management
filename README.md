@@ -1,25 +1,38 @@
 # Electricity Connection Management System
 
-This is a React-based application for managing electricity connections. It provides functionalities for adding new connections, updating existing connections, searching for connections, and generating bills. The system is designed to be user-friendly and efficient, making it easy for administrators to manage electricity connections.
+This is a React-based application for managing electricity connections. It provides a user-friendly interface for administrators to handle customer data and connection details efficiently. 
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FRAJNIKANT1021%2FElectricity-Connection-Management&project-name=electricity-connection-management&repository-name=Electricity-Connection-Management)
+
+## Live Demo
+
+Explore the application live: [https://electricity-connection-management.vercel.app/](https://electricity-connection-management.vercel.app/)
 
 ## Features
 
-* **Add New Connection:**  Allows administrators to add new customer connections with details like name, address, connection type, and meter number.
-* **Update Existing Connection:** Enables modification of existing connection details.
-* **Search Connection:**  Facilitates searching for specific connections using various criteria like customer name, meter number, or address.
-* **Generate Bill:**  Automatically generates electricity bills based on usage and tariff rates.
-* **User-Friendly Interface:**  Provides an intuitive graphical user interface (GUI) for easy interaction.
+* **Customer Management:** 
+    * Add new customer information (name, address, contact details).
+    * View a list of all customers.
+    * Update existing customer information.
+    * Delete customer records.
+* **Connection Management:**  
+    * Add new connection details (connection type, meter number, status).
+    * View a list of all connections.
+    * Update existing connection details.
+    * Delete connection records.
+* **Intuitive Interface:**  Easy-to-use interface with clear navigation.
 
 ## Technologies Used
 
-* React
-* React Toastify (for notifications)
-* React Popup (for modal windows)
-* LocalStorage (for data persistence)
-* React Datepicker (for date selection)
-* JavaScript
-* HTML
-* CSS
+* **Frontend:**
+    * React
+    * React Router (for navigation)
+    * Material UI (for UI components)
+    * React Toastify (for notifications)
+    * React Popup (for modals)
+    * LocalStorage (for data persistence)
+    * React Datepicker (for date selection)
+    * Axios (for API requests)
 
 ## Installation
 
@@ -41,11 +54,9 @@ This is a React-based application for managing electricity connections. It provi
 
 ## Usage
 
-1. **Navigate:** Use the Nav options to access different functionalities:
-    * **Add user:** Add new connections or update existing ones.
-    * **View connection:** Search for connections.
-    * **charts:** graphical presentation
-   
+1. **Access the application:** Open the live demo link or run the application locally.
+2. **Navigate:** Use the sidebar menu to access different sections (Customers, Connections).
+3. **Perform actions:** Add, view, update, or delete records as needed.
 
 ## Contributing
 
