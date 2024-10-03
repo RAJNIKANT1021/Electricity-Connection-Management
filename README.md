@@ -40,7 +40,7 @@ Explore the application live: [https://electricity-connection-management.vercel.
     * Node.js and npm (or yarn) installed
 2. **Clone the repository:**
     ```bash
-    git clone (https://github.com/RAJNIKANT1021/Electricity-Connection-Management.git)
+ gh repo clone RAJNIKANT1021/Electricity-Connection-Management
     ```
 3. **Install dependencies:**
     ```bash
